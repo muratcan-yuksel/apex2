@@ -16,9 +16,19 @@ export default {
   components: {
     apexchart: VueApexCharts,
   },
-  data: function () {
+  data() {
     return {
       chartOptions: {
+        theme: {
+          mode: "dark",
+          palette: "palette6",
+          monochrome: {
+            enabled: false,
+            color: "#A5978B",
+            shadeTo: "dark",
+            shadeIntensity: 0.65,
+          },
+        },
         chart: {
           id: "vuechart-example",
         },
