@@ -53,7 +53,8 @@ export default {
 }
 #stackNdonut {
   display: flex;
-  justify-content: space-around;
+  /* justify-content: space-around; */
   align-items: center;
+  flex-wrap: wrap;
 }
 </style>
